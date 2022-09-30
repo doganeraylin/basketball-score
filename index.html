@@ -8,25 +8,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Basketball Scoreboard</h1>
+    </header>
     <div class="score-container">
-        <div class="home score-info">
-            <p class="player-text">home</p>
-            <div class="score-display"></div>
-            <div class="add-score">
-                <p>+1</p>
-                <p>+2</p>
-                <p>+3</p>
+        <div class="home-score-info score-info">
+            <p class="home-player-text player-text">home</p>
+            <div class="home-score-display score-display">
+                <p>0</p>
+            </div>
+            <div class="home-add-score add-score">
+                <p class="home-plus-one">+1</p>
+                <p class="home-plus-two">+2</p>
+                <p class="home-plus-three">+3</p>
             </div>
         </div>
-        <div class="guest score-info">
-            <p class="player-text">guest</p>
-            <div class="score-display"></div>
-            <div class="add-score">
-                <p>+1</p>
-                <p>+2</p>
-                <p>+3</p>
+        <div class="guest-score-info score-info">
+            <p class="guest-player-text player-text">guest</p>
+            <div class="guest-score-display score-display">
+                <p>0</p>
+            </div>
+            <div class="guest-add-score add-score">
+                <p class="guest-plus-one">+1</p>
+                <p class="guest-plus-two">+2</p>
+                <p class="guest-plus-three">+3</p>
             </div>
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
