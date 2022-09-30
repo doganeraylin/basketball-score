@@ -10,14 +10,17 @@ body {
     background-color: #1B244A;
 }
 
+/* header */
+
 h1 {
     text-align: center;
     margin-top: 2em;
     font-family: "Cursed Timer ULiL", sans-serif;
     color: #9AABD8;
-
 }
 
+/* score container
+ */
 .score-container {
     display: flex;
     justify-content: center;
@@ -26,8 +29,6 @@ h1 {
     padding: 1em;
     max-width: 600px;
     border: 3px solid black;
-  
- 
 }
 
 .player-text {
@@ -53,6 +54,8 @@ h1 {
     font-size: 4rem;
 }
 
+
+/* buttons */
 
 .add-score {
     display: flex;
